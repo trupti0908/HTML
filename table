@@ -1,0 +1,267 @@
+<html>
+    <head>
+        
+    </head>
+    <style>
+        table , th, td { border: 1px solid black; }
+        div {
+            //border: 1px solid black;
+            padding: 2px,2px,2px,2px;
+            width: 800px;
+            margin-bottom: 10px;
+            margin-left:10%;
+            //background-color:gray;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+    <body>
+        <h1>Samsung</h1>
+        <div>
+            <h2>Employees Salary</h2>
+            <h3>Departments:</h3>
+                 <ol>
+                     <li>Prodcution</li>
+                     <li>Sale</li>
+                     <li>Account</li>
+                     <li>RND</li>
+                 </ol>
+            <h3>Employee Salary:</h3>
+            <table>
+                <tr>
+                    <th>SrNo</th>
+                    <th>EmpID</th>
+                    <th>Name</th>
+                    <th>DeptID</th>
+                    <th>Salary</th>
+                    <th>Joining Date</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>101</td>
+                    <td>Trupti</td>
+                    <td>Sale</td>
+                    <td>30,000</td>
+                    <td>10 Sept 2024</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>103</td>
+                    <td>Fareheen</td>
+                    <td>Account</td>
+                    <td>25000</td>
+                    <td>15 Aug 2022</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>103</td>
+                    <td>Prasanna</td>
+                    <td>Production</td>
+                    <td>15,000</td>
+                    <td>9 June 2025</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>104</td>
+                    <td>Vinay</td>
+                    <td>Sale</td>
+                    <td>20,000</td>
+                    <td>18 April 2023</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div>
+            <h2>Production Detials</h2>
+            <h3>Department: Production || Head: Prassana</h3>
+            <h3>Prodcut Name:</h3>
+            <ol>
+                <li>Mobile</li>
+                <li>TV</li>
+                <li>Washing Machine</li>
+            </ol>
+            <table>
+                <tr>
+                    <th>SrNO</th>
+                    <th>Name</th>
+                    <th>Count</th>
+                    <th>Date</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>TV</td>
+                    <td>25</td>
+                    <td>3/09/2025</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Mobile</td>
+                    <td>10</td>
+                    <td>3/09/2025</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Washing Machine</td>
+                    <td>12</td>
+                    <td>3/09/2025</td>
+                </tr>
+                 <tr>
+                    <td>2</td>
+                    <td>Mobile</td>
+                    <td>5</td>
+                    <td>2/09/2025</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Washing Machine</td>
+                    <td>15</td>
+                    <td>2/09/2025</td>
+                </tr>
+            </table>
+            
+        </div>
+        
+        <div>
+            <h2>Orders</h2>
+            <label>Search</label><input type="text" placeholder="Search item"/>
+            <table>
+                <tr>
+                    <th>OID</th>
+                    <th>Cust_Name</th>
+                    <th>Prod_Name</th>
+                    <th>State</th>
+                    <th>City</th>
+                    <th>Address</th>
+                    <th>Mobile No</th>
+                    <th>Amount</th>
+                    <th>OrderDate</th>
+                </tr>
+                <tr>
+                    <td>20259301</td>
+                    <td>Kritika</td>
+                    <td>TV</td>
+                    <td>Maharashtra</td>
+                    <td>AKola</td>
+                    <td>103,ranpise Nagar</td>
+                    <td>6778566778</td>
+                    <td>13000</td>
+                    <td>02/092025</td>
+                </tr>
+                <tr>
+                    <td>20259301</td>
+                    <td>Kritika</td>
+                    <td>TV</td>
+                    <td>Maharashtra</td>
+                    <td>AKola</td>
+                    <td>103,ranpise Nagar</td>
+                    <td>6778566778</td>
+                    <td>13000</td>
+                    <td>03/092025</td>
+                </tr>
+                <tr>
+                    <td>20259301</td>
+                    <td>Kritika</td>
+                    <td>TV</td>
+                    <td>Maharashtra</td>
+                    <td>AKola</td>
+                    <td>103,ranpise Nagar</td>
+                    <td>6778566778</td>
+                    <td>13000</td>
+                    <td>02/092025</td>
+                </tr>
+                <tr>
+                    <td>20259301</td>
+                    <td>Kritika</td>
+                    <td>TV</td>
+                    <td>Maharashtra</td>
+                    <td>AKola</td>
+                    <td>103,ranpise Nagar</td>
+                    <td>6778566778</td>
+                    <td>13000</td>
+                    <td>03/092025</td>
+                </tr>
+                <tr>
+                    <td>20259301</td>
+                    <td>Kritika</td>
+                    <td>TV</td>
+                    <td>Maharashtra</td>
+                    <td>AKola</td>
+                    <td>103,ranpise Nagar</td>
+                    <td>6778566778</td>
+                    <td>13000</td>
+                    <td>03/092025</td>
+                </tr>
+                <tr>
+                    <td>20259303</td>
+                    <td>Salman Khan</td>
+                    <td>Washing Machine</td>
+                    <td>Maharashtra</td>
+                    <td>AKola</td>
+                    <td>103,ranpise Nagar</td>
+                    <td>6778566778</td>
+                    <td>33000</td>
+                    <td>03/09/2025</td>
+                </tr>
+                <tr>
+                    <td>20259304</td>
+                    <td>Ankush</td>
+                    <td>TV</td>
+                    <td>Maharashtra</td>
+                    <td>AKola</td>
+                    <td>103,ranpise Nagar</td>
+                    <td>6778566778</td>
+                    <td>53000</td>
+                    <td>03/092025</td>
+                </tr>
+                <tr>
+                    <td>20259306</td>
+                    <td>Kritika</td>
+                    <td>M0bile</td>
+                    <td>Maharashtra</td>
+                    <td>AKola</td>
+                    <td>103,ranpise Nagar</td>
+                    <td>6778566778</td>
+                    <td>16000</td>
+                    <td>03/092025</td>
+                </tr>
+            </table>
+        </div> 
+        
+        <div>
+            <h2>sale Details</h2>
+            <h3>HEAD: Vinay or Trupti</h3>
+            <input type="Date" ><label id="date">03/09/2025</label>
+            
+            <table>
+                <tr>
+                    <th>srNo</th>
+                    <th>ProductName</th>
+                    <th>TotalUnit</th>
+                    <th>Amount</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>TV</td>
+                    <td>4</td>
+                    <td>92000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Mobile</td>
+                    <td>1</td>
+                    <td>16000</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Washing Machine</td>
+                    <td>1</td>
+                    <td>33000</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div>
+            <h3>Total Unit Sale: 6</h3>
+            <h3>Amount: 1,41,000</h3>
+        </div>
+    </body>
+</html>
