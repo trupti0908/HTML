@@ -1,0 +1,58 @@
+<html>
+	<head>
+	<head>
+	<body>
+	<div>	
+	<h2>full stack development</h2>
+	<!--introduction-->
+	<div>
+	<p>Full stack development involves creating both the frontend (client-side) and backend (server-side) components of a web application. It encompasses everything from designing user interfaces to managing databases and server logic. When using scripting technologies, JavaScript often dominates due to its versatility and ability to handle both frontend and backend task.</p>
+	</div>
+	<!--content-->
+	<div>
+	<h3>content:</h3>
+	<P>
+	<b>core fundamental</br>
+	<p>programming with javascript</br>
+	c#</br>
+	git</br>
+	css<br>
+	responsive web design</p>
+	<br/>
+	<b>Frontend development with scripting technologies</b>
+	<p>javascript<br/>
+	dom manipulation<br/>
+	react.js<br/>
+	react.router<br/>
+	react.hooks<br/>
+	content api<br/>
+	bootstrap<br/>
+	npm<br/>
+	<b>backend development technologies</b>
+	<p>node.js<br/>
+	asp.netcore<br/>
+	sql server<br/>
+	framework<br/>	
+	mssql/mysql<br/></p>
+	<b>additional content</b>
+	<p>restful api<br/>
+	postman<br/>
+	ci/cd<br/>
+	unix testing</p>
+	</div>
+	<!--enquiry-->
+ 	<div>
+	<h3>seat:60</h3>
+	<hr>
+	<div><i>we are providing <b>50% discount</br>
+	first 10 student registration send enquire now </i></div><hr>
+	<h3>duration:4 months</h3>
+	<div>
+	<a href="C:\Users\trupt\my web page\enquire.html"
+	style="border:2px solid;
+	background-color:green;color:white;">send enquiry</a></div>
+	</div>
+	</body>
+	<html>
+	
+	
