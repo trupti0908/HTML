@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"><meta name="viewport" content="width=device-with,initial-scale=1.0"><title>Bajaj Coaching Class
+        <!--Bootstrap icons CDn--!</title>
+        <link rel="stylsheet"href="">
+        <style>
+        /*Reset*/
+        *{
+        margin:0;
+        padding:0;
+        box-sixing:border-box;
+        }
+        body{
+        font-family:Arial,sans-serif;
+        color:#fff;
+        }
+        /*Banner with gradient bubble style*/
+        .banner{
+        position:relative;
+        height:100vh;
+        background:
+        linear-gradient(135deg,#ff9966,#ff5e62,#845ec2,#00c9a7);
+        background-size:400% 400%;
+        animaiton:gradientBG 12s ease infinite;
+        display:flex;
+        flex-direction:column;
+        }
+        .banner::before,.banner::after{
+        content:"";
+        position:absolute;
+        border-radioud:50%;
+        background:rgba(2555,255,255,0.15);
+        z-index:0;
+        }
+        .banner::after{
+        width:300px;
+        height:300px:
+        bottom:5%;
+        right:-100px;
+        }
+        @keyframes gradientBG{0%{background-position:0%50%;}
+        50%{background-position:100%50%;}
+        100%
+        {background-position:0%50%;}
+        }
+        /*Navbar*/
+        .navbar{
+        display:flex;
+        justify-content:
+        space-beteween;
+        align-items:center;
+        padding:20px50px;
+        position:relative;
+        z-index:1;
+        }
+        
+        .logo{
+        font-size:22px;
+        font-weight:bold;
+        letter-spacing:1px;
+        }
+        
+        .nav-links{
+        list-style:22px;
+        font-weight:bold;
+        letter-spacing:1px;
+        }
+        
+        .nav-links a{
+        text-decoration:none;
+        color:#fff;
+        font-weight:500;
+        transition:color 0.3s ease:
+        }
+        
+        .nav-links a:hover{
+        color:#ffd700;
+        }
+        
+        /*Banner content*/
+        .banner-content{
+        flex:1;
+        display:flex;
+        flex-directijon:center;
+        align-items:center:
+        text-align:center;
+        z-index:1;
+        position:relative;
+        }
+        
+        .banner-content h1{
+        font-size:50px;
+        margin-bottom:20px;
+        text-shadow:2px 2px 5px rgba(0,0,0,0.4);
+        }
+        .banner-content p{
+        font-size:20px;
+        margin-bottom:30px;
+        }
+        .btn{
+        padding:12px30px;
+        font-size:16px;
+        font-weight:bold;
+        color:#fff;
+        background:#ff5e62;
+        border:none;
+        border-radious:30px;
+        cursor:pointer;
+        transition:background0.4s ease;
+        }
+        .btn:hover{
+        background:#ff9966;
+        }
+        
+        /*service section*/
+        .services{
+        background:#f9f9f9;
+        color:333;
+        padding:60px40px;
+        text-align:center;
+        }
+        .service-cards{
+        display:grid;
+        grid-template-columns:
+        repeat(auto-fit,minmax(220px,1fr));
+        gap:30px;
+        max-width:1000px;
+        margin:auto;
+        }
+        .service-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .service-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 30px 20px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+
+    .service-card i {
+      font-size: 40px;
+      color: #ff5e62;
+      margin-bottom: 15px;
+    }
+
+    .service-card h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #444;
+    }
+
+    .service-card p {
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <!-- Banner -->
+  <div class="banner">
+    <nav class="navbar">
+      <div class="logo">Bajaj Class</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+      </ul>
+    </nav>
+
+    <div class="banner-content">
+      <h1>Bajaj Coaching Class</h1>
+      <p>Empowering Students for a Bright Future</p>
+      <button class="btn">Learn More</button>
+    </div>
+  </div>
+
+  <!-- Services Section -->
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="service-card">
+        <i class="bi bi-camera-video"></i>
+        <h3>Live Classes</h3>
+        <p>Interactive online sessions with expert teachers in real-time.</p>
+        </div>
+      <div class="service-card">
+        <i class="bi bi-book"></i>
+        <h3>Library</h3>
+        <p>Access to a vast collection of books and study materials.</p>
+      </div>
+      <div class="service-card">
+        <i class="bi bi-cpu"></i>
+        <h3>Practical Lab</h3>
+        <p>Hands-on learning experience with advanced lab facilities.</p>
+      </div>
+      <div class="service-card">
+        <i class="bi bi-person-video3"></i>
+        <h3>1-to-1 Teaching</h3>
+        <p>Personalized attention with dedicated one-on-one mentoring.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+
